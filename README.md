@@ -2,6 +2,9 @@
 
 A **FastAPI-based backend** with authentication and **role-based access control** for managing users, scans, and connections. Info on the endpoints and how to use them (which ones are protected etc. are at the end)
 
+- To use the endpoints, simply click on them, click "Try it out", enter the needed info (if any) and then click Execute.
+
+
 ## 🚀 Setup Guide
 
 ### 1️⃣ Prerequisites
