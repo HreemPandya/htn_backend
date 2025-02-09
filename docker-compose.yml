@@ -3,7 +3,7 @@ version: "3.8"
 services:
   db:
     image: postgres:latest
-    container_name: htn-db
+    container_name: htnb-db
     restart: always
     environment:
       POSTGRES_USER: admin
