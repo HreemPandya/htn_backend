@@ -2,7 +2,7 @@ from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine, async_sess
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.pool import NullPool
 
-DATABASE_URL = "postgresql+asyncpg://admin:admin@localhost:5432/hackathon"
+DATABASE_URL = "postgresql+asyncpg://admin:admin@localhost:5433/hackathon"
 
 
 async_engine = create_async_engine(DATABASE_URL, echo=True, poolclass=NullPool)
